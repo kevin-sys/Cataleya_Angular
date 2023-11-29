@@ -14,7 +14,7 @@ export class LoginService {
 
   //generamos el token
   public generateToken(loginData:any){
-    return this.http.post(`${baserUrl}/generate-token`,loginData);
+    return this.http.post(`${baserUrl}generar-token`,loginData);
   }
 
   public getCurrentUser(){

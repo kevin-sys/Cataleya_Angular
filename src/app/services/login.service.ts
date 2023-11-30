@@ -18,7 +18,7 @@ export class LoginService {
   }
 
   public getCurrentUser(){
-    return this.http.get(`${baserUrl}/actual-usuario`);
+    return this.http.get(`${baserUrl}actual-usuario`);
   }
 
   //iniciamos sesión y establecemos el token en el localStorage
